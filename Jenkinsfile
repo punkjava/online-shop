@@ -27,4 +27,9 @@ node{
             // sh 'docker push upasanatestdocker/mysql'
           
     }
+      stage('PULL image from Docker Hub')
+    {
+        sh 'docker pull punkjava/jenki'
+          
+    }
 }
